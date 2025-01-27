@@ -1,7 +1,7 @@
 
 <div class="min-h-screen bg-gray-800 p-8">
     <h1 class="text-6xl font-extrabold text-white">Boden Harris</h1>
-    <img src="moonClipart.png" alt="Toggle Night Mode" class="w-16 h-16 mt-4 absolute top-4 right-4">
+    <img src="moonClipart.png" alt="Toggle Night Mode" class="w-16 h-16 mt-4 absolute top-3 right-6">
     <hr class="border-t-2 border-gray-500">
     <h2 class="text-lg text-gray-300 mt-2">blharris@umass.edu</h2>
     <p class="text-gray-300 mt-4 border border-gray-500 rounded-lg w-1/2 h-auto p-3" >
