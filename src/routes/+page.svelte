@@ -5,7 +5,8 @@
     <a href="Boden Harris - Resume.pdf" class="text-blue-400 mt-4 inline-block hover:text-blue-600">
         View My Resume
     </a>
-    <p class="text-gray-300 mt-4 border border-gray-500 rounded-lg w-1/2 h-auto pl-3 pr-3" >
+    <p class="text-gray-300 mt-4 border border-gray-500 rounded-lg w-1/2 h-auto p-3" >
+        <b class="font-bold text-2xl">About me: </b><br>
         I am a freshman at the UMass Amerst Commonwealth Honors College studying Computer science. I am currently on track to graduate in the winter of 2026. 
     </p>
 </div>
