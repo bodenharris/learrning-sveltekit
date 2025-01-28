@@ -3,7 +3,8 @@
     <h1 class="text-6xl font-extrabold text-white">Boden Harris</h1>
     <button 
     class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-    aria-label="Toggle Night Mode">
+    aria-label="Toggle Night Mode"
+    on:click={toggleNightMode}>
         <img src="moonClipart.png" alt="Moon Icon" class="w-[48px] h-[48px]">
     </button>
     <hr class="border-t-2 border-gray-500">
@@ -16,3 +17,9 @@
         View My Resume
     </a>
 </div>
+<script>
+    function toggleNightMode() {
+        document.body.classList.toggle('dark');
+    }
+</script>
+
