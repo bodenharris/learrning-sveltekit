@@ -4,7 +4,7 @@
     <button 
     class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
     aria-label="Toggle Night Mode">
-        <img src="moonClipart.png" alt="Moon Icon" class="w-[32px] h-[32px]">
+        <img src="moonClipart.png" alt="Moon Icon" class="w-[48px] h-[48px]">
     </button>
     <hr class="border-t-2 border-gray-500">
     <h2 class="text-lg text-gray-300 mt-2">blharris@umass.edu</h2>
