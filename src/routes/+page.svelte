@@ -11,7 +11,6 @@
     $: borderColor = nightMode ? borderColors[1] : borderColors[0];
     $: hoverColor = nightMode ? hoverColors[1] : hoverColors[0];
     $: nightModeIcon = nightMode ? 'moonClipart.png' : 'sunClipart.png';
-    $: downloadIcon = nightMode ?  'downloadLight.png' : 'downloadDark.png';
 
     function toggleNightMode() {
         nightMode = !nightMode;
@@ -39,7 +38,7 @@
         <button 
         class="fixed w-16 h-16 right-4 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
         aria-label="Download Resume">
-            <img src={downloadIcon} alt="Download Icon" class="w-[48px] h-[48px]">
+            <img src=downloadIcon.png alt="Download Icon" class="w-[48px] h-[48px]" style="{nightMode ? 'filter: invert(1)' : ''}">
         </button>
     </p>
   
