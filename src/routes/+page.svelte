@@ -2,7 +2,7 @@
 <div class="min-h-screen {bgColor} p-8 text-{textColor}">
     <h1 class="text-6xl font-extrabold ">Boden Harris</h1>
     <button 
-    class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full {bgColor} hover:{hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+    class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full {bgColor} hover:bg-{hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
     aria-label="Toggle Night Mode"
     on:click={toggleNightMode}>
         <img src="moonClipart.png" alt="Moon Icon" class="w-[48px] h-[48px]">
