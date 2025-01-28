@@ -4,7 +4,7 @@
     const bgColors = ['bg-gray-300', 'bg-gray-800'];
     const textColors = ['text-gray-800', 'text-white'];
     const borderColors = ['border-gray-800', 'border-gray-500'];
-    const hoverColors = ['bg-gray-200', 'bg-gray-700'];
+    const hoverColors = ['hover:bg-gray-200', 'hover:bg-gray-700'];
 
     $: bgColor = nightMode ? bgColors[1] : bgColors[0];
     $: textColor = nightMode ? textColors[1] : textColors[0];
@@ -19,7 +19,7 @@
 <div class="min-h-screen {bgColor} p-8 {textColor}">
     <h1 class="text-6xl font-extrabold">Boden Harris</h1>
     <button 
-    class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full {bgColor} hover:${hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+    class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
     aria-label="Toggle Night Mode"
     on:click={toggleNightMode}>
         <img src="moonClipart.png" alt="Moon Icon" class="w-[48px] h-[48px]">
