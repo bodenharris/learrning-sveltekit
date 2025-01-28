@@ -1,5 +1,5 @@
 
-<div class="min-h-screen bg-gray-800 p-8">
+<div class="min-h-screen {bgColor} p-8">
     <h1 class="text-6xl font-extrabold text-white">Boden Harris</h1>
     <button 
     class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -18,8 +18,28 @@
     </a>
 </div>
 <script>
+    let nightMode = true;
+    let bgColors = [
+        'bg-gray-300', 'bg-gray-800'
+    ];
+    let textColors = [
+        'text-gray-800', 'white'
+    ];
+    let borderColors = [
+        'border-gray-800', 'border-gray-300'
+    ];
+    let bgColor = bgColors[1];
+    let textColor = textColors[1];
+    let borderColor = borderColors[1];
+
     function toggleNightMode() {
-        document.body.classList.toggle('dark');
+
+       if (nightMode) {
+        bgColor = bgColors[0]; 
+       } else {
+        bgColor = bgColors[1];
+       }
+       nightMode=!nightMode;
     }
 </script>
 
