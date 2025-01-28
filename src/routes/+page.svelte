@@ -11,7 +11,7 @@
     $: borderColor = nightMode ? borderColors[1] : borderColors[0];
     $: hoverColor = nightMode ? hoverColors[1] : hoverColors[0];
     $: nightModeIcon = nightMode ? 'moonClipart.png' : 'sunClipart.png';
-    $: downloadIcon = nightMode ? 'downloadLight.jpg' : 'downloadDark.jpg';
+    $: downloadIcon = nightMode ? 'downloadLight.png' : 'downloadDark.png';
 
     function toggleNightMode() {
         nightMode = !nightMode;
