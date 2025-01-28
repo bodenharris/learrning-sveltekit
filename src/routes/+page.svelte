@@ -31,14 +31,14 @@
         <b class="font-bold text-2xl">About me: </b><br>
         I am a freshman at the UMass Amerst Commonwealth Honors College studying Computer science.<br>I am currently on track to graduate in the winter of 2026. 
     </p>
-    <p class="flex mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-1" >
-        <a href="Boden Harris - Resume.pdf" class="text-blue-400 mt-1 inline-block hover:text-blue-600">
+    <p class="mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-1 flex items-center space-x-2">
+        <a href="Boden Harris - Resume.pdf" class="text-blue-400 inline-block hover:text-blue-600">
             View My Resume
         </a> 
         <button 
-        class="relative w-12 h-12 right-4 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500"
-        aria-label="Download Resume">
-            <img src=downloadIcon.png alt="Download Icon" class="w-[32px] h-[32px]" style="{nightMode ? 'filter: invert(1)' : ''}">
+            class="w-12 h-12 flex items-center justify-center rounded-full {bgColor} hover:{hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500"
+            aria-label="Download Resume">
+            <img src="downloadIcon.png" alt="Download Icon" class="w-[32px] h-[32px]" style="{nightMode ? 'filter: invert(1)' : ''}">
         </button>
     </p>
   
