@@ -1,3 +1,20 @@
+<script>
+    let nightMode = true;
+
+    const bgColors = ['bg-gray-300', 'bg-gray-800'];
+    const textColors = ['text-gray-800', 'text-white'];
+    const borderColors = ['border-gray-800', 'border-gray-500'];
+    const hoverColors = ['bg-gray-200', 'bg-gray-700'];
+    
+    $: bgColor = nightMode ? bgColors[1] : bgColors[0];
+    $: textColor = nightMode ? textColors[1] : textColors[0];
+    $: borderColor = nightMode ? borderColors[1] : borderColors[0];
+    $: hoverColor = nightMode ? hoverColors[1] : hoverColors[0];
+
+    function toggleNightMode() {
+        nightMode = !nightMode;
+    }
+</script>
 
 <div class="min-h-screen {bgColor} p-8 text-{textColor}">
     <h1 class="text-6xl font-extrabold  ">Boden Harris</h1>
@@ -17,39 +34,5 @@
         View My Resume
     </a>
 </div>
-<script>
-    let nightMode = true;
-    let bgColors = [
-        'bg-gray-300', 'bg-gray-800'
-    ];
-    let textColors = [
-        'text-gray-800', 'white'
-    ];
-    let borderColors = [
-        'border-gray-800', 'border-gray-500'
-    ];
-    let hoverColors = [
-        'bg-gray-200', 'bg-gray-700'
-    ];
-    let bgColor = bgColors[1];
-    let textColor = textColors[1];
-    let borderColor = borderColors[1];
-    let hoverColor = hoverColors[1];
 
-    function toggleNightMode() {
-
-       if (nightMode) {
-        bgColor = bgColors[0];
-        textColor = textColors[0];
-        borderColor = borderColors[0]; 
-        hoverColor = hoverColors[0];
-       } else {
-        bgColor = bgColors[1];
-        textColor = textColors[1];
-        borderColor = borderColors[1]; 
-        hoverColor = hoverColors[1];
-       }
-       nightMode=!nightMode;
-    }
-</script>
 
