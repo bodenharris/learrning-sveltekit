@@ -10,7 +10,7 @@
     $: textColor = nightMode ? textColors[1] : textColors[0];
     $: borderColor = nightMode ? borderColors[1] : borderColors[0];
     $: hoverColor = nightMode ? hoverColors[1] : hoverColors[0];
-    $: nightModeIcon = nightMode ? 'moonClipart.png' : 'sunClipart-removebg-preview.png';
+    $: nightModeIcon = nightMode ? 'moonClipart.png' : 'sunClipart.png';
 
     function toggleNightMode() {
         nightMode = !nightMode;
