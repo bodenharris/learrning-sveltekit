@@ -36,7 +36,7 @@
             View My Resume
         </a> 
         <button 
-        class="fixed w-16 h-16 right-4 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="relative w-16 h-16 right-4 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500"
         aria-label="Download Resume">
             <img src=downloadIcon.png alt="Download Icon" class="w-[40px] h-[40px]" style="{nightMode ? 'filter: invert(1)' : ''}">
         </button>
