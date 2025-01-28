@@ -10,6 +10,7 @@
     $: textColor = nightMode ? textColors[1] : textColors[0];
     $: borderColor = nightMode ? borderColors[1] : borderColors[0];
     $: hoverColor = nightMode ? hoverColors[1] : hoverColors[0];
+    $: nightModeIcon = nightMode ? 'moonClipart.png' : 'sunClipart-removebg-preview.png';
 
     function toggleNightMode() {
         nightMode = !nightMode;
@@ -22,7 +23,7 @@
     class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
     aria-label="Toggle Night Mode"
     on:click={toggleNightMode}>
-        <img src="moonClipart.png" alt="Moon Icon" class="w-[48px] h-[48px]">
+        <img src={nightModeIcon} alt="Moon Icon" class="w-[48px] h-[48px]">
     </button>
     <hr class="border-t-2 {borderColor}">
     <h2 class="text-lg ">blharris@umass.edu</h2>
