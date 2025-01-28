@@ -1,7 +1,12 @@
 
 <div class="min-h-screen bg-gray-800 p-8">
     <h1 class="text-6xl font-extrabold text-white">Boden Harris</h1>
-    <img src="moonClipart.png" alt="Toggle Night Mode" class="w-16 h-16 mt-4 absolute top-[12px] right-6">
+    <button 
+    class="relative w-16 h-16 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+    aria-label="Toggle Night Mode"
+>
+    <img src="moonClipart.png" alt="Moon Icon" class="w-[24px] h-[24px]">
+    </button>
     <hr class="border-t-2 border-gray-500">
     <h2 class="text-lg text-gray-300 mt-2">blharris@umass.edu</h2>
     <p class="text-gray-300 mt-4 border border-gray-500 rounded-lg w-1/2 h-auto p-3" >
