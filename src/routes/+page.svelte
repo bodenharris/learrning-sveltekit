@@ -11,6 +11,7 @@
     $: borderColor = nightMode ? borderColors[1] : borderColors[0];
     $: hoverColor = nightMode ? hoverColors[1] : hoverColors[0];
     $: nightModeIcon = nightMode ? 'moonClipart.png' : 'sunClipart.png';
+    $: downloadIcon = nightMode ? 'downloadLight.jpg' : 'downloadDark.jpg';
 
     function toggleNightMode() {
         nightMode = !nightMode;
@@ -31,10 +32,13 @@
         <b class="font-bold text-2xl">About me: </b><br>
         I am a freshman at the UMass Amerst Commonwealth Honors College studying Computer science.<br>I am currently on track to graduate in the winter of 2026. 
     </p>
-    <p class=" mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-3" >
+    <p class=" mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-1" >
         <a href="Boden Harris - Resume.pdf" class="text-blue-400 mt-4 inline-block hover:text-blue-600">
             View My Resume
         </a> 
+        <button>
+            <img src={downloadIcon} alt="Download Icon" class="w-[48px] h-[48px]">
+        </button>
     </p>
   
 </div>
