@@ -5,7 +5,7 @@
     const textColors = ['text-gray-800', 'text-white'];
     const borderColors = ['border-gray-800', 'border-gray-500'];
     const hoverColors = ['bg-gray-200', 'bg-gray-700'];
-    
+
     $: bgColor = nightMode ? bgColors[1] : bgColors[0];
     $: textColor = nightMode ? textColors[1] : textColors[0];
     $: borderColor = nightMode ? borderColors[1] : borderColors[0];
@@ -16,8 +16,8 @@
     }
 </script>
 
-<div class="min-h-screen {bgColor} p-8 text-{textColor}">
-    <h1 class="text-6xl font-extrabold  ">Boden Harris</h1>
+<div class="min-h-screen {bgColor} p-8 {textColor}">
+    <h1 class="text-6xl font-extrabold">Boden Harris</h1>
     <button 
     class="absolute w-16 h-16 top-4 right-4 flex items-center justify-center rounded-full {bgColor} hover:{hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
     aria-label="Toggle Night Mode"
