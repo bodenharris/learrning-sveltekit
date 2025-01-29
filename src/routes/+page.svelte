@@ -15,6 +15,14 @@
     function toggleNightMode() {
         nightMode = !nightMode;
     }
+
+    function downloadResume() {
+        const link = document.createElement('a');
+        link.href = 'Boden Harris - Resume.pdf';
+        link.download = 'Boden Harris - Resume.pdf';
+        link.click();
+    }
+
 </script>
 
 <div class="min-h-screen {bgColor} p-8 {textColor}">
@@ -36,8 +44,9 @@
             View My Resume
         </a> 
         <button 
-            class="w-12 h-12 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500"
-            aria-label="Download Resume">
+        class="w-12 h-12 flex items-center justify-center rounded-full {bgColor} {hoverColor} focus:outline-none focus:ring-2 focus:ring-blue-500"
+        aria-label="Download Resume"
+        on:click={downloadResume}>
             <img src="downloadIcon.png" alt="Download Icon" class="w-[32px] h-[32px]" style="{nightMode ? 'filter: invert(1)' : ''}">
         </button>
     </p>
