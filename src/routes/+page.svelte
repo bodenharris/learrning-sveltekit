@@ -39,6 +39,9 @@
         <b class="font-bold text-2xl">About me: </b><br>
         I am a freshman at the UMass Amerst Commonwealth Honors College studying Computer science.<br>I am currently on track to graduate in the winter of 2026. 
     </p>
+    <button class = "round-lg hover:outline-none hover:ring-2 focus:ring-blue-500 transition">    
+        <img src="profile.jpg" alt="Profile Picture" class="w-1/4 h-auto rounded-lg mt-4">
+    </button>
     <p class="mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-1 flex items-center space-x-2">
         <a href="Boden Harris - Resume.pdf" class="text-blue-400 inline-block hover:text-blue-600 p-3">
             View My Resume
