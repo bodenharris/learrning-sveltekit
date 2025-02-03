@@ -53,6 +53,17 @@
             <img src="downloadIcon.png" alt="Download Icon" class="w-[32px] h-[32px]" style="{nightMode ? 'filter: invert(1)' : ''}">
         </button>
     </p>
+    <div class="mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-3">
+        <b class="font-bold text-2xl">Skills: </b><br>
+        <ul class="list-disc list-inside">
+            <li>Java</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>Svelte</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
   
 </div>
 
