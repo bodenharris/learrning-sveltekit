@@ -65,6 +65,9 @@
             <li>JavaScript</li>
         </ul>
     </div>
+    <div class="mt-4 border {borderColor} rounded-lg h-auto p-3">
+        <b class="font-bold text-2xl">Projects: </b><br>
+    </div>
   
 </div>
 
