@@ -39,7 +39,7 @@
         <b class="font-bold text-2xl">About me: </b><br>
         I am a freshman at the UMass Amerst Commonwealth Honors College studying Computer science.<br>I am currently on track to graduate in the winter of 2026. 
     </p>
-    <button class = "absolute right-4 top-22 rounded-full h-96 w-96 ring-6 ring-grey-500 transition">    
+    <button class = "absolute right-4 top-22 rounded-full h-96 w-96 ring-6 ring-gray-500 transition">    
         <img src="profile.jpg" alt="" class="h-96 w-96 rounded-full">
     </button>
     <p class="mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-1 flex items-center space-x-2">
