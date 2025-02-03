@@ -43,7 +43,7 @@
         <img src="profile.jpg" alt="" class="h-96 w-96 rounded-full">
     </button>
     <p class="mt-4 border {borderColor} rounded-lg w-1/2 h-auto p-1 flex items-center space-x-2">
-        <a href="Boden Harris - Resume.pdf" class="text-blue-400 inline-block hover:text-blue-600 p-3">
+        <a href="Boden Harris - Resume.pdf" class="text-blue-400 inline-block hover:text-blue-600 p-3" target="_blank">
             View My Resume
         </a> 
         <button 
