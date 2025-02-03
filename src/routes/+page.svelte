@@ -64,6 +64,7 @@
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
+    </div>
   
 </div>
 
